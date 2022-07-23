@@ -32,6 +32,15 @@ body {
 
 section {
   padding-left: 25px;
+  border-top: 2px dotted darkslategray;
+}
+
+section ~ section {
+  border-top: 2px dotted darkslategray;
+}
+
+article {
+  border-top: 2px solid darkslateblue;
 }
 
 /* Styling */
@@ -42,6 +51,7 @@ a:link {
 
 a:visited {
   color: rgb(116, 116, 1);
+  text-decoration-line: none;
 }
 
 a:hover {
@@ -51,4 +61,12 @@ a:hover {
 a:active {
   color: gold;
   text-decoration: dotted;
+}
+
+.nav-link:link {
+  color: black;
+}
+
+.nav-link:visited {
+  color: black;
 }
