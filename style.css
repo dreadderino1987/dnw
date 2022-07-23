@@ -1,6 +1,6 @@
 /* General */
 
-*:before *:after {
+* {
   box-sizing: boder-box;
 }
 
