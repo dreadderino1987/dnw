@@ -1,0 +1,54 @@
+/* General */
+
+*:before *:after {
+  box-sizing: boder-box;
+}
+
+* {
+  font-family: monospace;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Layout */
+
+.header {
+  text-align: center;
+  padding: 25px;
+  background-color: cornflowerblue;
+}
+
+.main {
+  padding: 40px;
+  padding-bottom: 0px;
+}
+
+.footer {
+  padding: 40px;
+  padding-top: 0px;
+}
+
+section {
+  padding-left: 25px;
+}
+
+/* Styling */
+
+a:link {
+  color: rgb(116, 116, 1);
+}
+
+a:visited {
+  color: rgb(116, 116, 1);
+}
+
+a:hover {
+  color: gold;
+}
+
+a:active {
+  color: gold;
+  text-decoration: dotted;
+}
