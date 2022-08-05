@@ -1,7 +1,13 @@
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(650, 650);
+  console.log("Ausgabetext-initial");
 }
 
 function draw() {
-  background("#DCDD93");
+  drawBackground("#EE9988");
 }
+
+function drawBackground(color) {
+  background(color);
+}
+console.log("Ausgabetext");
