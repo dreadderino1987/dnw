@@ -1,0 +1,40 @@
+p {
+  display: inline-block;
+}
+
+#checkbox {
+  all: unset;
+}
+
+label {
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid salmon;
+}
+
+#checkbox:checked + label {
+  border: 2px solid blue;
+  background-color: chocolate;
+}
+
+.unchecked {
+  display: none;
+}
+
+#checkbox:checked + label > .checked {
+  border: 2px solid blue;
+  background-color: yellow;
+  display: none;
+}
+#checkbox:checked + label > .unchecked {
+  border: 2px solid blue;
+  background-color: yellow;
+  display: inline-block;
+}
+
+#checkbox + label > .checked {
+  border: 2px solid blue;
+  background-color: yellow;
+  display: inline-block;
+}
