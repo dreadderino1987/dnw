@@ -1,15 +1,20 @@
 function setup() {
-  createCanvas(450, 450);
-  background("white");
+  let canvasbox = 500;
+  let bgcolor = "white";
+  let sqmslogo = canvasbox / 2.5;
+  let sqsmal = canvasbox / 25;
+  let sqlarge = canvasbox / 2;
+  createCanvas(canvasbox, canvasbox);
+  background(bgcolor);
   noStroke();
   fill("tomato");
-  rect(25, 25, 200);
+  rect(sqsmal, sqsmal, sqmslogo);
   fill("yellowgreen");
-  rect(250, 25, 200);
+  rect(sqlarge, sqsmal, sqmslogo);
   fill("skyblue");
-  rect(25, 250, 200);
+  rect(sqsmal, sqlarge, sqmslogo);
   fill("orange");
-  rect(250, 250, 200);
+  rect(sqlarge, sqlarge, sqmslogo);
 }
 
 function draw() {
@@ -17,5 +22,5 @@ function draw() {
     circle(mouseX, mouseY, random(30));
     fill("white");
   }
-  console.log("MouseX is " + mouseX + " and mouseY is " + mouseY);
+  // console.log("MouseX is " + mouseX + " and mouseY is " +  mouseY);
 }
