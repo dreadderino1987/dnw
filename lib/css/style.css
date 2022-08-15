@@ -1,0 +1,52 @@
+:root {
+  font-size: 16px;
+  --main-bg-color: rgb(255, 236, 219);
+  --header-bg-color: rgb(255, 131, 73);
+  --content-bg-color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.header,
+.footer {
+  background-color: var(--header-bg-color);
+  max-width: 100%;
+  padding-left: 10%;
+}
+
+.header {
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.content {
+  background-color: var(--content-bg-color);
+  max-width: 80%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  padding: 2em;
+}
+
+table .th1 {
+  width: 15%;
+}
+
+.footer {
+}
