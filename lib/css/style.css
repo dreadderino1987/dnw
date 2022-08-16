@@ -9,43 +9,60 @@ body {
   background-color: var(--main-bg-color);
 }
 
-.header,
-.footer {
+header,
+footer {
   background-color: var(--header-bg-color);
   max-width: 100%;
-  padding-left: 10%;
+}
+.sitepad {
+  margin-left: 10%;
 }
 
-.header {
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  display: inline;
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
 }
 
 nav a {
+  display: block;
   text-decoration: none;
+  color: black;
+  margin-right: 1em;
+  padding-block: 1em;
 }
 
-.content {
+main {
   background-color: var(--content-bg-color);
   max-width: 80%;
   margin: auto;
 }
 
-table {
-  width: 100%;
-  padding: 2em;
+article {
+  padding-block: 1em;
 }
 
-table .th1 {
+table {
+  width: 100%;
+  padding-left: 2em;
+}
+
+th {
+  text-align: start;
+  padding-block: 0.5em;
+}
+
+td {
+  padding-block: 0.5em;
+}
+
+.th1 {
   width: 15%;
+}
+
+.th2 {
+  width: 20%;
 }
 
 .footer {
