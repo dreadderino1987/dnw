@@ -54,7 +54,7 @@ h1 {
 }
 
 input[type="text"] {
-  width: 75%;
+  width: 80%;
   margin: 1em;
   padding: 1em;
   box-sizing: border-box;
@@ -62,8 +62,8 @@ input[type="text"] {
 }
 
 .send-btn {
-  width: 5%;
-  margin: 1em;
-  padding: 1em;
+  width: 10%;
+
+  padding-block: 1em;
   border-radius: 0.5em;
 }
