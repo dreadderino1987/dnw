@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="header">
+            <h1>Unser Toller Chat-Bot</h1>
+        </div>
+        <div class="msg-box-wrapper">
+            <p v-for="chatMsg of chatMessages" class="msg" v-bind:class="`msg-${chatMsg.alignment}`">
+                Am {{ chatMsg.tstamp }} schrieb {{ chatMsg.user }}:
+                {{ chatMsg.msg }}
+            </p>
+
+            <!--<p class="msg msg-left">Eine Frage</p>
+        <p class="msg msg-right">Eine Antwort</p>
+        <p class="msg msg-left">Eine Frage</p>
+        <p class="msg msg-right">Eine Antwort</p>
+        <p class="msg msg-left">Eine Frage</p>
+        <p class="msg msg-right">Eine Antwort</p>-->
+        </div>
+        <form v-on:submit.prevent="addNewMsg" class="msg-form">
+            <input type="text" v-model="newChatMsg">
+            <button class="send-btn">Send</button>
+        </form>
+        <!--
+
+      -->
+
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
