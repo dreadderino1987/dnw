@@ -1,0 +1,19 @@
+{
+  "name": "dnw",
+  "version": "1.0.0",
+  "description": "DNW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreadderino1987/dnw.git"
+  },
+  "author": "Sascha Dietrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreadderino1987/dnw/issues"
+  },
+  "homepage": "https://github.com/dreadderino1987/dnw#readme"
+}
