@@ -146,9 +146,6 @@ nav a:focus {
 }
 
 .about-me__body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 0.5rem;
 }
 
@@ -190,36 +187,8 @@ nav a:focus {
   color: var(--text-color);
 }
 
-@media only screen and (min-width: 1270px) {
-  .about-me,
-  .further-info {
+@media only screen and (min-width: 750px) {
+  section {
     padding: 0 7.5em 0 7.5em;
-  }
-
-  .projects {
-    flex-direction: row;
-    max-width: 100%;
-    height: 750px;
-    justify-content: center;
-  }
-
-  .project ~ .project {
-    margin-left: 1em;
-  }
-
-  .project {
-    max-width: 30%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .btn-group {
-    flex-direction: row;
-    justify-content: center;
-  }
-  img {
-    height: 40%;
-    width: 100%;
-    object-fit: cover;
   }
 }
