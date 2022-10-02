@@ -160,6 +160,9 @@ header,
     flex-direction: column;
     align-items: center;
   }
+  .mobile-nav-toogle[aria-expanded="true"] {
+    background-image: url("/img/x.svg");
+  }
 }
 
 .mobile-nav-toogle {
@@ -169,6 +172,10 @@ header,
   background-color: transparent;
   border: 0;
   padding: 0.5em;
+  width: 2.5em;
+  aspect-ratio: 1;
+  background-image: url("/img/list.svg");
+  background-size: contain;
 }
 
 .mobile-nav-toogle .icon-close {
