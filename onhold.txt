@@ -1,4 +1,4 @@
-      <li>
+
         <div class="project">
           <h2>Project 1</h2>
           <img src="/img/pic1.jpg" alt="" class="product___img">
@@ -9,8 +9,7 @@
             laudantium quam sequi similique cum blanditiis numquam officiis libero enim modi placeat
             doloribus ullam illum, excepturi alias.</p>
         </div>
-      </li>
-      <li>
+
         <div class="project">
           <h2>Project 2</h2>
           <img src="/img/pic2.jpg" alt="" class="product___img">
@@ -21,8 +20,7 @@
             laudantium quam sequi similique cum blanditiis numquam officiis libero enim modi placeat
             doloribus ullam illum, excepturi alias.</p>
         </div>
-      </li>
-      <li>
+
         <div class="project">
           <h2>Project 3</h2>
           <img src="/img/pic3.jpg" alt="" class="product___img">
